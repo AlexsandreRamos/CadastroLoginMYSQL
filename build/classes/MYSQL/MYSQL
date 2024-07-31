@@ -1,0 +1,15 @@
+create database cadastro
+default character set utf8mb4
+default collate utf8mb4_0900_ai_ci;
+
+-----------------------------------
+
+CREATE TABLE cadastro (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(255),
+  dataNascimento INTEGER UNSIGNED NULL,
+  telefone double,
+  login VARCHAR (255),
+  senha VARCHAR (255),
+  PRIMARY KEY(id)
+);
